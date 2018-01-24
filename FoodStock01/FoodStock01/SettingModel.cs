@@ -15,7 +15,7 @@ namespace FoodStock01
 
         public int Set_alert { get; set; } //通知日数
 
-        /********************インサートメソッド（通知日数）**********************/
+        /********************インサートメソッド（通知日数）***********************/
         public static void InsertSetting(int set_no, int set_alert)
         {
             //データベースに接続する
